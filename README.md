@@ -10,5 +10,5 @@ Case-Study-_-Publicis-Sapient | coding excercise
    can use JDBC-temple here.  
 3. every end point will correspond to a serach query, RequestMapping with PathVariable can be used to filter each request.
 4. the return type will be marshalled from POJO to JSON/XML 
-5. Star schema will be a suitable choice to cater faster lookup
+5. for the database Star schema will be a suitable choice to cater faster lookup 
 5. cursors and trigger, will be enabled to handle update/insert anomalies from other dimension tables .e.g. seller, distributors etc
